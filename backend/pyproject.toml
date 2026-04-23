@@ -1,7 +1,16 @@
 [project]
-name = "backend"
+name = "codeatlas-backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "CodeAtlas — GitHub Repository Analyzer & UML Diagram Generator"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "groq>=0.25.0",
+    "chromadb>=1.0.0",
+    "pydantic-settings>=2.7.0",
+    "httpx>=0.28.0",
+]
+
+[project.scripts]
+dev = "dev:main"
