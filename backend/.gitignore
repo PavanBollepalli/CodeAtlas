@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# ChromaDB data
+chroma_data/
+
+# Cloned repos
+cloned_repos/
+
+# Persisted repo metadata
+repo_metadata/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
