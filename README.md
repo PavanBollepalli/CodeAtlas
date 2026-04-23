@@ -1,4 +1,4 @@
-# CodeAtlas
+<h1 align="center">CodeAtlas</h1>
 
 <p align="center">
   <strong>AI-powered repository intelligence for understanding unfamiliar codebases fast.</strong>
